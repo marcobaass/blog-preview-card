@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Figtree Semi";
+    src: url("./assets/fonts/static/Figtree-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: "Figtree Bold";
+    src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    place-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: White;
+    padding: 1rem 1rem;
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    box-shadow: 0.5rem 0.5rem 0 black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+h1, h2 {
+    font-family: "Figtree Bold";
+}
+
+h3, p {
+    font-family: "Figtree Semi";
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2, h3, p {
+    font-size: 16px;
+}
+
+p {
+    color: hsl(0, 0%, 50%);
+}
+
+.tag {
+    display: inline-block;
+    width: auto;
+    padding: 0.3rem 0.6rem;
+    background-color: hsl(47, 88%, 63%);
+}
